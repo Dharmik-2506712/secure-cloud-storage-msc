@@ -1,0 +1,8 @@
+test,label,size_bytes,chunk_size_bytes,avg_encrypt_seconds,avg_decrypt_seconds,throughput_mb_per_s
+file_size,1MB,1048576,1048576,0.26173,0.22619,3.82
+file_size,5MB,5242880,1048576,0.23541,0.24406,21.24
+file_size,20MB,20971520,1048576,0.27059,0.42307,73.91
+file_size,50MB,52428800,1048576,0.41855,1.41024,119.46
+chunk_size,1MB chunks,20971520,1048576,0.26588,,75.22
+chunk_size,4MB chunks,20971520,4194304,0.25131,,79.58
+chunk_size,16MB chunks,20971520,16777216,0.27202,,73.52
